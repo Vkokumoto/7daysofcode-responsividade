@@ -1,0 +1,54 @@
+.header__barra-superior {
+    background-color: var(--bg-secundario);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 33px;
+    width: 100%;
+    padding: 0.4rem 1rem;
+    box-sizing: border-box;
+}
+
+.barra__horario {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.barra__icones {
+    display: flex;
+    gap: 1rem;
+}
+
+.header__perfil {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 223px;
+    height: 57px;
+    margin: 2rem auto 1.4rem 1rem;
+}
+
+.header__perfil img {
+    border-radius: 50%;
+    width: 57px;
+    height: 57px;
+}
+
+.perfil__informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+}
+
+.informacoes__titulo {
+    color: var(--preto-fonte);
+    font-weight: 700;
+    font-size: 22px;
+    margin: 0;
+}
+
+.informacoes__texto {
+    color: var(--cinza-fonte);
+    font-weight: 400;
+    font-size: 14px;
+}

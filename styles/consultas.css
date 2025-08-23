@@ -1,0 +1,96 @@
+.consultas__dia {
+    color: var(--preto-fonte);
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+
+.consultas__container {
+    background-color: var(--bg-secundario);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.data__card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.card__foto {
+    border-radius: 16px;
+    width: 32px;
+    height: 32px;
+    }
+
+.card__header {
+        margin-right: auto;
+        margin-left: 1rem;
+    }
+
+.card__nome {
+    color: var(--preto-fonte);
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+    line-height: 22px;
+}
+
+.card__texto {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--cinza-fonte);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid var(--cinza-claro);
+    margin: 0 -1rem;
+}
+
+.data__card__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.card__horario {
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+
+.card__botoes {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.card__botoes a{
+    text-decoration: none;
+}
+
+.botao__video {
+    color: var(--bg-secundario);
+    background-color: var(--laranja-botao);
+    padding: 1rem 1.6rem;
+    border-radius: 8px;
+}
+
+.botao__video--audio {
+    color: var(--preto-fonte);
+    background-color: var(--bg-secundario);
+    border: 1px solid var(--cinza-claro);
+}
+
+.botao__video--endereco {
+    background-color: var(--azul-botao);
+    width: 100%;
+    text-align: center;
+}
