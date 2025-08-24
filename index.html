@@ -323,9 +323,26 @@
         </nav>
     </section>
     <div class="botao__flutuante">
-        <button class="botao__flutuante-mais">
+        <!-- toggle -->
+        <input type="checkbox" id="botao__toggle" class="botao__checkbox">
+        <!-- overlay p/ fechar ao clique -->
+        <label for="botao__toggle" class="botao__overlay"></label>
+
+        <div class="botao__acoes">
+            <a href="#" class="botao__acao">
+                <span class="botao__label">Nova consulta domiciliar</span>
+                <span class="botao__icone botao__icone--mapa"></span>
+            </a>
+
+            <a href="#" class="botao__acao">
+                <span class="botao__label">Nova consulta remota</span>
+                <span class="botao__icone botao__icone--video"></span>
+            </a>
+        </div>
+
+        <label for="botao__toggle" class="botao__flutuante-mais">
             <span></span>
-        </button>
+        </label>
     </div>
 </body>
 </html>

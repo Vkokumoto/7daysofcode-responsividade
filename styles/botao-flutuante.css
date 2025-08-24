@@ -28,3 +28,90 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+.botao__checkbox {
+    position: fixed;
+    right: 16px;
+    bottom: 70px;
+    width: 56px;
+    height: 56px;
+    opacity: 0;
+    pointer-events: none; /* clicavel apenas pelos labels */
+}
+
+.botao__overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: var(--bg-escurecido);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 3;
+    transition: opacity .2s ease;
+}
+
+.botao__acoes {
+    position: fixed;
+    right: 16px;
+    bottom: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(8px); /* deslocamento de entrada */
+    transition: opacity .2s, transform .2s, visibility .2s;
+    z-index: 4;
+}
+
+.botao__acao {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    text-decoration: none;
+}
+
+.botao__label {
+    background: var(--bg-secundario);
+    color: var(--preto-fonte);
+    padding: 5px;
+    border-radius: 16px;
+}
+
+.botao__icone {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: var(--azul-botao);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    filter: drop-shadow(0 3px 6px #46464625);
+}
+
+.botao__icone--mapa {
+    background-image: url("../img/pinfabiconee.svg");
+}
+
+.botao__icone--video {
+    background-image: url("../img/Camerafab.svg");
+}
+
+.botao__checkbox:checked ~ .botao__overlay {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.botao__checkbox:checked ~ .botao__acoes {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.botao__checkbox:checked ~ .botao__flutuante-mais {
+    transform: rotate(45deg);
+    transition: transform .2s ease;
+}
