@@ -1,5 +1,8 @@
+@import url("./styles/reset.css");
 @import url("./styles/header.css");
 @import url("./styles/consultas.css");
+@import url("./styles/rodape.css");
+@import url("./styles/botao-flutuante.css");
 
 :root {
     --bg-principal: #F9F7FE;
@@ -16,4 +19,6 @@ body {
     background-color: var(--bg-principal);
     font-family: var(--fonte);
     margin: 0;
+    padding-top: 130px;
+    padding-bottom: 58px;
 }

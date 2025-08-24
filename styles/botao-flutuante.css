@@ -1,0 +1,30 @@
+.botao__flutuante {
+    position: relative;
+}
+
+.botao__flutuante-mais {
+    position: fixed;
+    right: 16px;
+    bottom: 70px;
+
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+
+    background-color: var(--azul-botao);
+    border: none;
+    filter: drop-shadow(0 3px 6px #46464625);
+    z-index: 5;
+}
+
+.botao__flutuante-mais span {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-image: url("../img/mais-icone.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

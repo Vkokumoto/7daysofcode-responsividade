@@ -1,3 +1,11 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-principal);
+}
+
 .header__barra-superior {
     background-color: var(--bg-secundario);
     display: flex;
