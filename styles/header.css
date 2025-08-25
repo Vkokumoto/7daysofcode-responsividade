@@ -19,7 +19,7 @@ header {
 
 .barra__horario {
     font-weight: 400;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .barra__icones {
@@ -51,12 +51,12 @@ header {
 .informacoes__titulo {
     color: var(--preto-fonte);
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.38rem;
     margin: 0;
 }
 
 .informacoes__texto {
     color: var(--cinza-fonte);
     font-weight: 400;
-    font-size: 14px;
+    font-size: 0.875rem;
 }

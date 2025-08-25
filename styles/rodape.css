@@ -30,7 +30,7 @@
     justify-content: center;
 
     color: var(--preto-fonte);
-    font-size: 12px;
+    font-size: 0.75rem;
 }
 
 .rodape__pagina:first-child {

@@ -16,6 +16,10 @@
     --fonte: 'Montserrat', sans-serif;
 }
 
+html {
+    font-size: 100%;
+}
+
 body {
     background-color: var(--bg-principal);
     font-family: var(--fonte);
