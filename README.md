@@ -12,3 +12,6 @@ Botão flutuante: ao selecionar o botão flutuante, é aplicado um efeito escuro
 
 ## Dia 3 - Unidades relativas e limites de resolução de layout
 Alterações para que o tamanho da fonte seja relativo, se adequando ao tamnho da tela da pessoa que acessar a página. Ajuste para a largura dos cards
+
+## Dia 4 - Media queries
+Utilização de media queries para reorganizar a exibição de consultas para tablets e desktop. A lista de consultas foi adaptada para um layout de 2 colunas, na versão para tablets e layout de 3 colunas, na versão para telas maiores

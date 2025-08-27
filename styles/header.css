@@ -4,6 +4,7 @@ header {
     left: 0;
     width: 100%;
     background-color: var(--bg-principal);
+    filter: drop-shadow(0 1px 3px #46464625);
 }
 
 .header__barra-superior {
@@ -59,4 +60,10 @@ header {
     color: var(--cinza-fonte);
     font-weight: 400;
     font-size: 0.875rem;
+}
+
+@media screen and (min-width: 768px) {
+    .header__barra-superior {
+        display: none;
+    }
 }

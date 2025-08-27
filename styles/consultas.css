@@ -1,3 +1,8 @@
+.consultas__lista {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 .consultas__dia {
     color: var(--preto-fonte);
     font-weight: 700;
@@ -97,4 +102,16 @@ hr {
     background-color: var(--azul-botao);
     width: 100%;
     text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .consultas__lista {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .consultas__lista {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
