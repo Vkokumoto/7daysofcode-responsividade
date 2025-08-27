@@ -62,3 +62,42 @@
     background-image: url("../img/menu-icone.svg");
     opacity: 30%;
 }
+
+@media screen and (min-width: 1024px) {
+    .rodape {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 200px;
+        height: 100vh;
+
+        border-radius: 0;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 2rem;
+    }
+
+    .rodape nav>ul {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding-left: 1.2rem;
+    }
+
+    .rodape__pagina:hover {
+        background-color: var(--bg-principal);
+        color: var(--azul-botao);
+        border-radius: 8px;
+    }
+
+    .rodape__pagina {
+        flex-direction: row;
+        gap: 1rem;
+        font-size: 1rem;
+    }
+
+    .rodape__pagina:first-child {
+        font-weight: 700;
+    }
+}

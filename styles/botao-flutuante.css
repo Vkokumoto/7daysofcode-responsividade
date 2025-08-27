@@ -115,3 +115,13 @@
     transform: rotate(45deg);
     transition: transform .2s ease;
 }
+
+@media screen and (min-width: 1024px) {
+    .botao__flutuante-mais {
+        bottom: 30px;
+    }
+
+    .botao__acoes {
+        bottom: 100px;
+    }
+}

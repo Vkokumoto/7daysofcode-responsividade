@@ -15,3 +15,6 @@ Alterações para que o tamanho da fonte seja relativo, se adequando ao tamnho d
 
 ## Dia 4 - Media queries
 Utilização de media queries para reorganizar a exibição de consultas para tablets e desktop. A lista de consultas foi adaptada para um layout de 2 colunas, na versão para tablets e layout de 3 colunas, na versão para telas maiores
+
+## Dia 5 - Menu lateral
+Transformação dos itens do rodapé em formato de "menu lateral" em dispositivos desktop. Efeito de hover nos itens do menu lateral e pequeno ajuste na posição do botão flutuante
