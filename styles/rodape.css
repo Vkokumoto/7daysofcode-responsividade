@@ -86,9 +86,9 @@
     }
 
     .rodape__pagina:hover {
-        background-color: var(--bg-principal);
         color: var(--azul-botao);
         border-radius: 8px;
+        cursor: pointer;
     }
 
     .rodape__pagina {

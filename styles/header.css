@@ -63,13 +63,50 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+
+    .header__perfil {
+        height: 72px;
+        width: auto;
+        margin: 2rem 1rem;
+    }
+
+    .header__perfil img {
+        width: 72px;
+        height: 72px;
+    }
+
+    .perfil__informacoes {
+        gap: 0.5rem;
+    }
+    .informacoes__titulo {
+        font-size: 1.6rem;
+    }
+
+    .informacoes__texto {
+        font-size: 1rem;
+    }
+
     .header__barra-superior {
         display: none;
     }
 }
 
 @media screen and (min-width: 1024px) {
+
     header {
         left: 200px;
+    }
+
+    .header__perfil {
+        height: 88px;
+    }
+
+    .header__perfil img {
+        width: 88px;
+        height: 88px;
+    }
+
+    .informacoes__titulo {
+        font-size: 1.8rem;
     }
 }

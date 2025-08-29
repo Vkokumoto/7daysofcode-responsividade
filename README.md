@@ -18,3 +18,9 @@ Utilização de media queries para reorganizar a exibição de consultas para ta
 
 ## Dia 5 - Menu lateral
 Transformação dos itens do rodapé em formato de "menu lateral" em dispositivos desktop. Efeito de hover nos itens do menu lateral e pequeno ajuste na posição do botão flutuante
+
+## Dia 6 - Cadastro de consultas
+Implantação de formulário de cadastro abaixo da seção de consultas e ocultação do botão flutuante no layout de desktop. Pequenos ajustes no header
+
+## Dia 7 - Deploy da página
+Publicação do site com Github Pages
